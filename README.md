@@ -42,3 +42,5 @@ Env Vars:
 ### Credits:
 - [Dan](https://github.com/delivrance) for his [Pyrogram](https://github.com/pyrogram/pyrogram) library
 - [Tejas](https://github.com/Perry-xD), [nikhileashy](https://github.com/nikhileashy), [DHEERAJ](https://github.com/DHEERXJ) & [CLÆ͜͡Ｙ](https://github.com/CLaY9950)
+
+<a href="https://pyrogram.org"><img src="https://i.ibb.co/SVLD5k8/Document-1222546317.png" alt="pyrogram" border="0"></a>
