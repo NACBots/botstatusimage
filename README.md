@@ -19,7 +19,8 @@
 </p>
 
 
-This bot can show the real-time working status of your bots as an Image.
+This bot can show the real-time working status of your bots as an Image.<br>
+
 <img src="https://i.ibb.co/SQRgnF1/Screenshot-2022-08-29-21-36-01-99-86b20aa5dbe808163fc963dd678ff925.jpg">
 
 ### Deploy to Heroku
