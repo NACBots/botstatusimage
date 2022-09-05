@@ -19,9 +19,9 @@ CHANNEL_OR_GROUP_ID = int(os.environ["CHANNEL_OR_GROUP_ID"])
 MESSAGE_ID = int(os.environ["MESSAGE_ID"])
 try:
     BOT_ADMIN_IDS = [int(i.strip()) for i in os.environ.get("BOT_ADMIN_IDS").split(" ")]
-except:
+except BaseException:
     BOT_ADMIN_IDS = [int(os.environ.get("BOT_ADMIN_IDS", 0)).split()]
-    
+
 API_HASH = os.environ.get("API_HASH", None)
 API_ID = int(os.environ.get("API_ID", 0))
 SESSION_NAME = os.environ.get("SESSION_NAME", None)
