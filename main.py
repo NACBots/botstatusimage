@@ -17,7 +17,11 @@ TIME_ZONE = os.environ["TIME_ZONE"]
 BOT_LIST = [i.strip() for i in os.environ.get("BOT_LIST").split(" ")]
 CHANNEL_OR_GROUP_ID = int(os.environ["CHANNEL_OR_GROUP_ID"])
 MESSAGE_ID = int(os.environ["MESSAGE_ID"])
-BOT_ADMIN_IDS = [int(i.strip()) for i in os.environ.get("SUDO_USERS").split(" ")]
+try:
+    BOT_ADMIN_IDS = [int(i.strip()) for i in os.environ.get("BOT_ADMIN_IDS").split(" ")]
+except:
+    BOT_ADMIN_IDS = [int(os.environ.get("BOT_ADMIN_IDS", 0)).split()]
+    
 API_HASH = os.environ.get("API_HASH", None)
 API_ID = int(os.environ.get("API_ID", 0))
 SESSION_NAME = os.environ.get("SESSION_NAME", None)
